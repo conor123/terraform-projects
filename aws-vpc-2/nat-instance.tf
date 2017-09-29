@@ -1,6 +1,6 @@
 /*
- * NAT Instance
- */
+ * NAT Instance - for example, prefer NAT gateway
+
 resource "aws_security_group" "nat" {
     name = "vpc_nat"
     description = "Private subnet traffic to internet"
@@ -77,6 +77,7 @@ resource "aws_instance" "nat" {
     subnet_id = "${aws_subnet.eu-west-1a-public.id}"
     associate_public_ip_address = true
     source_dest_check = false
+
     tags {
         Name = "VPC NAT"
     }
@@ -86,3 +87,5 @@ resource "aws_eip" "nat" {
     instance = "${aws_instance.nat.id}"
     vpc = true
 }
+
+*/
