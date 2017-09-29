@@ -1,2 +1,10 @@
-In this project we will build an AWS VPC with public/private subnets
-perfect for data driven web aps with separate back ends
+In this project we will build AWS Infrastructure for type 2 VPC:
+- VPC
+- Internet Gateway
+- Routing Tables
+- Public & private subnets
+- Web servers
+- Database servers
+- Nat instance
+
+Perfect for modern data driven web apps

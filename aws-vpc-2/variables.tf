@@ -3,13 +3,22 @@ variable "aws_key_path" {}
 variable "aws_key_name" {}
 
 variable "vpc_region" {
-  default = "eu-west-1"
+    default = "eu-west-1"
 }
 
 variable "vpc_amis" {
+    type = "map"
     description = "VPC AMIs"
     default = {
-        eu-west-1 = "ami-06d11e7f" # ubuntu xenial 14.04 LTS
+        eu-west-1 = "ami-06d11e7f" # ubuntu xenial 16.04 LTS
+    }
+}
+
+variable "nat-instance-amis" {
+    type = "map"
+    description = "NAT Instance AMIs"
+    default = {
+        eu-west-1 = "ami-30913f47"
     }
 }
 

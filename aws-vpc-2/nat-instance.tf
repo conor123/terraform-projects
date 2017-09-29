@@ -69,9 +69,9 @@ resource "aws_security_group" "nat" {
 }
 
 resource "aws_instance" "nat" {
-    ami = "ami-30913f47" # Designated NAT AMI
+    ami = "${lookup(var.nat-instance-amis, var.vpc_region)}" # Designated NAT AMI
     availability_zone = "eu-west-1a"
-    instance_type = "t2.micro" # m1.small
+    instance_type = "t2.micro" # usually: m1.small
     key_name = "${var.aws_key_name}"
     vpc_security_group_ids = ["${aws_security_group.nat.id}"]
     subnet_id = "${aws_subnet.eu-west-1a-public.id}"
