@@ -13,7 +13,7 @@ variable "vpc_amis" {
         eu-west-1 = "ami-06d11e7f" # ubuntu xenial 16.04 LTS
     }
 }
-
+# Not currently used, nat gateway preferred
 variable "nat-instance-amis" {
     type = "map"
     description = "NAT Instance AMIs"

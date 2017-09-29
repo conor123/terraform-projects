@@ -1,0 +1,1 @@
+This method prompts for aws id and secret key
