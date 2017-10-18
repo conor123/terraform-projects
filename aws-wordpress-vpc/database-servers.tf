@@ -1,6 +1,6 @@
 resource "aws_instance" "database_server_1" {
     ami = "${lookup(var.amis, "database_server")}"
-    availability_zone = "${var.vpc_region}"
+    availability_zone = "${var.availability_zones["zone_1a"]}"
     instance_type = "${var.database_server_instance_type}"
     key_name = "${var.aws_key_name}"
     vpc_security_group_ids = ["${aws_security_group.db_server.id}"]

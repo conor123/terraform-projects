@@ -3,7 +3,7 @@
  */
 resource "aws_instance" "web_server_1" {
     ami = "${lookup(var.amis, "web_server")}"
-    availability_zone = "${var.vpc_region}"
+    availability_zone = "${var.availability_zones["zone_1a"]}"
     instance_type = "${var.web_server_instance_type}"
     key_name = "${var.aws_key_name}"
     vpc_security_group_ids = ["${aws_security_group.web_server.id}"]
@@ -17,6 +17,7 @@ resource "aws_instance" "web_server_1" {
 
     // Please note that you will have to configure your chef server to bootstrap this node
     // Comment and configure if bootstrap is not required or configured
+    /*
     provisioner "chef" {
 
         //environment     = "_default"
@@ -48,4 +49,5 @@ resource "aws_instance" "web_server_1" {
         }
         EOF
     }
+    */
 }

@@ -1,7 +1,12 @@
 resource "aws_elb" "asg" {
   name = "elb-asg"
-  availability_zones = ["${data.aws_availability_zones.available.names}"]
-  security_groups = ["${aws_security_group.elb.id}"]
+  #availability_zones = ["${data.aws_availability_zones.available.names}"]
+  #security_groups = ["${aws_security_group.elb.id}"] # IMPORTANT! Nee to attach SG here!
+  internal = true
+  #cross_zone_load_balancing = true
+  subnets = [
+    "${aws_subnet.private_1a.*.id}"
+  ]
 
   listener {
     lb_port = 80

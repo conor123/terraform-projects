@@ -17,6 +17,13 @@ resource "aws_security_group" "elb" {
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
+
+  ingress {
+    from_port = 443
+    to_port = 443
+    cidr_blocks = ["0.0.0.0/0"]
+    protocol = "tcp"
+  }
 }
 /*
 * NAT Instance
@@ -148,6 +155,14 @@ resource "aws_security_group" "web_server" {
     Name = "WebServer-SG"
   }
 
+
+  ingress {
+    from_port = 22
+    to_port = 22
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
   ingress {
     from_port = 80
     to_port = 80
@@ -166,6 +181,20 @@ resource "aws_security_group" "web_server" {
     from_port = -1
     to_port = -1
     protocol = "icmp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  egress {
+    from_port = 80
+    to_port = 80
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  egress {
+    from_port = 443
+    to_port = 443
+    protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 

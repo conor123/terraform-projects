@@ -56,9 +56,12 @@ variable "amis" {
     description = "AMIs"
     default = {
         #eu-west-1 = "ami-06d11e7f" # ubuntu xenial 16.04 LTS
-        web_server = "ami-bb9a6bc2" # Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
-        database_server = "ami-bb9a6bc2" # Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
-        nat_instance = "ami-30913f47" # amzn-ami-vpc-nat-pv-2014.09.1.x86_64-eb
+        web_server = "ami-bb9a6bc2"
+        # Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
+        database_server = "ami-bb9a6bc2"
+        # Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
+        #nat_instance = "ami-30913f47" # amzn-ami-vpc-nat-pv-2014.09.1.x86_64-eb
+        nat_instance = "ami-076d5d61" #amzn-ami-vpc-nat-hvm-2017.03.rc-0.20170320-x86_64-ebss
     }
 }
 
