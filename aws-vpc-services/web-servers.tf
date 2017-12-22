@@ -2,7 +2,7 @@
  * Web Servers
  */
 resource "aws_instance" "web-1" {
-    ami = "${lookup(var.amis, var.vpc_region)}"
+    ami = "${lookup(var.amis, "web_server")}"
     availability_zone = "${var.availability_zones["zone_1a"]}"
     instance_type = "${var.web_server_instance_type}"
     key_name = "${var.aws_key_name}"
