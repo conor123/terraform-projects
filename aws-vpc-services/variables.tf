@@ -28,19 +28,29 @@ variable "http_port" {
     default = 80
 }
 
-variable "vpc_cidr_block" {
+variable "cidr_block_vpc" {
     description = "VPC CIDR block"
     default = "10.0.0.0/16"
 }
 
-variable "public_subnet_cidr_block" {
+variable "cidr_block_public_subnet_1" {
     description = "Public Subnet CIDR block"
     default = "10.0.0.0/24"
 }
 
-variable "private_subnet_cidr_block" {
-    description = "Private Subnet CIDR block"
+variable "cidr_block_public_subnet_2" {
+    description = "Public Subnet CIDR block"
     default = "10.0.1.0/24"
+}
+
+variable "cidr_block_private_subnet_1" {
+    description = "Private Subnet CIDR block"
+    default = "10.0.3.0/24"
+}
+
+variable "cidr_block_private_subnet_2" {
+    description = "Private Subnet CIDR block"
+    default = "10.0.4.0/24"
 }
 
 /**

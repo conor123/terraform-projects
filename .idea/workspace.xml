@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659ce7b6-9ad4-4c23-b931-8a914d57e009" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-vpc-services/README.md" afterPath="$PROJECT_DIR$/aws-vpc-services/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-vpc-services/variables.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/variables.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aws-vpc-services/web-servers.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/web-servers.tf" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/aws-asg-1/elb.tf" afterPath="$PROJECT_DIR$/aws-asg-1/elb.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/README.md" afterPath="$PROJECT_DIR$/aws-vpc-services/README.md" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/database-servers.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/database-servers.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/internet-gateway.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/internet-gateway.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/nat-instance.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/nat-instance.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/private-subnet.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/private-subnet.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/public-subnet.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/public-subnets.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/route-tables.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/route-tables.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/security-groups.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/security-groups.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/variables.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/variables.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/vpc.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/vpc.tf" />
+      <change beforePath="$PROJECT_DIR$/aws-vpc-services/web-servers.tf" afterPath="$PROJECT_DIR$/aws-vpc-services/web-servers.tf" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,55 +24,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nat-instance.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-vpc-services/nat-instance.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1508772843000" expanded="true" signature="203:223" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="382:414" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="533:565" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1186:1207" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1388:1423" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1396:1422" ph="(...)" />
-                <marker date="1508772843000" expanded="true" signature="1469:1505" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1526:1550" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1588:1607" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1640:1677" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1697:1731" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1891:1913" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="private-subnet.tf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws-vpc-services/private-subnet.tf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding>
-                <marker date="1508772843000" expanded="true" signature="59:79" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="99:131" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="158:202" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="166:201" ph="(...)" />
+                <marker date="1515162878000" expanded="true" signature="50:72" ph="${...}" />
+                <marker date="1515162878000" expanded="true" signature="92:126" ph="${...}" />
+                <marker date="1515162878000" expanded="true" signature="153:197" ph="${...}" />
+                <marker date="1515162878000" expanded="true" signature="161:196" ph="(...)" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public-subnet.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-vpc-services/public-subnet.tf">
+      <file leaf-file-name="public-subnets.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/public-subnets.tf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding>
-                <marker date="1508772711000" expanded="true" signature="58:78" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="98:129" ph="${...}" />
+                <marker date="1515162357000" expanded="true" signature="49:71" ph="${...}" />
+                <marker date="1515162357000" expanded="true" signature="91:124" ph="${...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vpc.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/vpc.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+              <folding>
+                <marker date="1515162553000" expanded="true" signature="50:71" ph="${...}" />
               </folding>
             </state>
           </provider>
@@ -73,65 +69,16 @@
       <file leaf-file-name="route-tables.tf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws-vpc-services/route-tables.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="376">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
-                <marker date="1508772711000" expanded="true" signature="61:81" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="140:174" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="299:333" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="355:394" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="461:481" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="700:735" ph="${...}" />
-                <marker date="1508772711000" expanded="true" signature="757:797" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security-groups.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-vpc-services/security-groups.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1508772843000" expanded="true" signature="112:132" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="275:303" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="400:421" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="519:540" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="869:889" ph="${...}" />
-                <marker date="1508772843000" expanded="true" signature="1354:1386" ph="${...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terraform.tfvars" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-vpc-services/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-vpc-services/variables.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vpc.tf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws-vpc-services/vpc.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1508771539000" expanded="true" signature="48:69" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="61:83" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="142:176" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="301:326" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="348:387" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="454:476" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="695:721" ph="${...}" />
+                <marker date="1515162899000" expanded="true" signature="743:783" ph="${...}" />
               </folding>
             </state>
           </provider>
@@ -140,28 +87,96 @@
       <file leaf-file-name="web-servers.tf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws-vpc-services/web-servers.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
-                <marker date="1513941274000" expanded="true" signature="67:100" ph="${...}" />
-                <marker date="1513941274000" expanded="true" signature="75:86" ph="(...)" />
-                <marker date="1513941274000" expanded="true" signature="75:98" ph="(...)" />
-                <marker date="1513941274000" expanded="true" signature="75:99" ph="(...)" />
-                <marker date="1513941274000" expanded="true" signature="127:163" ph="${...}" />
-                <marker date="1513941274000" expanded="true" signature="186:217" ph="${...}" />
-                <marker date="1513941274000" expanded="true" signature="235:254" ph="${...}" />
-                <marker date="1513941274000" expanded="true" signature="287:315" ph="${...}" />
-                <marker date="1513941274000" expanded="true" signature="335:369" ph="${...}" />
+                <marker date="1515162504000" expanded="true" signature="67:100" ph="${...}" />
+                <marker date="1515162504000" expanded="true" signature="75:86" ph="(...)" />
+                <marker date="1515162504000" expanded="true" signature="75:98" ph="(...)" />
+                <marker date="1515162504000" expanded="true" signature="75:99" ph="(...)" />
+                <marker date="1515162504000" expanded="true" signature="127:163" ph="${...}" />
+                <marker date="1515162504000" expanded="true" signature="186:217" ph="${...}" />
+                <marker date="1515162504000" expanded="true" signature="235:254" ph="${...}" />
+                <marker date="1515162504000" expanded="true" signature="287:315" ph="${...}" />
+                <marker date="1515162504000" expanded="true" signature="335:360" ph="${...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="variables.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/variables.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nat-instance.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/nat-instance.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+              <folding>
+                <marker date="1515162774000" expanded="true" signature="203:225" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="384:418" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="537:571" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1192:1213" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1394:1429" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1402:1428" ph="(...)" />
+                <marker date="1515162774000" expanded="true" signature="1475:1511" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1532:1556" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1594:1613" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1646:1683" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1703:1728" ph="${...}" />
+                <marker date="1515162774000" expanded="true" signature="1888:1910" ph="${...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database-servers.tf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/database-servers.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding>
+                <marker date="1515162923000" expanded="true" signature="44:82" ph="${...}" />
+                <marker date="1515162923000" expanded="true" signature="52:81" ph="(...)" />
+                <marker date="1515162923000" expanded="true" signature="109:145" ph="${...}" />
+                <marker date="1515162923000" expanded="true" signature="168:204" ph="${...}" />
+                <marker date="1515162923000" expanded="true" signature="222:241" ph="${...}" />
+                <marker date="1515162923000" expanded="true" signature="274:301" ph="${...}" />
+                <marker date="1515162923000" expanded="true" signature="321:347" ph="${...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security-groups.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/security-groups.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding>
+                <marker date="1515162697000" expanded="true" signature="112:134" ph="${...}" />
+                <marker date="1515162697000" expanded="true" signature="277:305" ph="${...}" />
+                <marker date="1515162697000" expanded="true" signature="402:423" ph="${...}" />
+                <marker date="1515162697000" expanded="true" signature="521:542" ph="${...}" />
+                <marker date="1515162697000" expanded="true" signature="873:895" ph="${...}" />
+                <marker date="1515162697000" expanded="true" signature="1413:1447" ph="${...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nat-gateway.tf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws-vpc-services/nat-gateway.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,17 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/internet-gateway.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/terraform.tfvars" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/vpc.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/eips.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/route-tables.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/launch-config.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/public-subnet.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/provider.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/database-servers.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/private-subnet.tf" />
-        <option value="$PROJECT_DIR$/aws-wordpress-vpc/security-groups.tf" />
         <option value="$PROJECT_DIR$/aws-wordpress-instance/security-groups.tf" />
         <option value="$PROJECT_DIR$/aws-wordpress-vpc/autoscaling-group.tf" />
         <option value="$PROJECT_DIR$/aws-wordpress-vpc/nat-instance.tf" />
@@ -231,7 +235,6 @@
         <option value="$PROJECT_DIR$/aws-asg-1/data.tf" />
         <option value="$PROJECT_DIR$/aws-asg-1/provider.tf" />
         <option value="$PROJECT_DIR$/aws-asg-1/cloudwatch-alarms.tf" />
-        <option value="$PROJECT_DIR$/aws-asg-1/elb.tf" />
         <option value="$PROJECT_DIR$/aws-asg-1/security-groups.tf" />
         <option value="$PROJECT_DIR$/aws-asg-1/key-pair.tf" />
         <option value="$PROJECT_DIR$/aws-asg-1/launch-config.tf" />
@@ -252,14 +255,32 @@
         <option value="$PROJECT_DIR$/aws-vpc-t2/README.md" />
         <option value="$PROJECT_DIR$/aws-asg-1/README.md" />
         <option value="$PROJECT_DIR$/aws-vpc-services/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/public-subnet.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/internet-gateway.tf" />
+        <option value="$PROJECT_DIR$/aws-asg-1/elb.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/elb.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/launch-config.tf" />
         <option value="$PROJECT_DIR$/aws-vpc-services/README.md" />
         <option value="$PROJECT_DIR$/aws-vpc-services/variables.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/public-subnets.tf" />
         <option value="$PROJECT_DIR$/aws-vpc-services/web-servers.tf" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/vpc.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/security-groups.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/nat-instance.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/private-subnet.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/route-tables.tf" />
+        <option value="$PROJECT_DIR$/aws-vpc-services/database-servers.tf" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -281,52 +302,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terraform-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terraform-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terraform-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="terraform-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aws-vpc-services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="terraform-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="terraform-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="terraform-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="aws-vpc-services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/variables" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aws-vpc-services" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/aws-asg-1" />
       <recent name="$PROJECT_DIR$/aws-wordpress-instance" />
       <recent name="$PROJECT_DIR$/aws-wordpress-vpc" />
-      <recent name="$PROJECT_DIR$/environment-variables" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,26 +354,86 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Apply">
-      <option name="PROGRAM_PARAMETERS" value="apply" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <envs />
-      <method />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
-    <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Plan">
-      <option name="PROGRAM_PARAMETERS" value="plan" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
-      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -418,29 +490,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -466,27 +515,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -535,40 +563,18 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Apply">
+      <option name="PROGRAM_PARAMETERS" value="apply" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
+    <configuration default="true" type="#org.intellij.plugins.hcl.terraform.run.TerraformConfigurationType" factoryName="Terraform Plan">
+      <option name="PROGRAM_PARAMETERS" value="plan" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
@@ -588,6 +594,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="659ce7b6-9ad4-4c23-b931-8a914d57e009" name="Default" comment="" />
@@ -595,8 +604,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506501926854</updated>
+      <workItem from="1515153767215" duration="3007000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -604,31 +617,32 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35068494" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2709766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30533117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3101777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -660,6 +674,9 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -672,100 +689,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aws-asg-1/output-variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1508745743000" expanded="true" signature="41:86" ph="${...}" />
-            <marker date="1508745743000" expanded="true" signature="122:146" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-instance-wordpress/web-servers.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-asg-1/launch-config.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1508757418000" expanded="true" signature="64:97" ph="${...}" />
-            <marker date="1508757418000" expanded="true" signature="72:96" ph="(...)" />
-            <marker date="1508757418000" expanded="true" signature="150:180" ph="${...}" />
-            <marker date="1508757418000" expanded="true" signature="198:235" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-t2-wordpress/autoscaling-group.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-instance-wordpress/provider.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-instance-wordpress/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-instance-wordpress/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-t2/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-t2-wordpress/web-servers.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-t2-wordpress/vpc.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-t2-wordpress/eips.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-t2-wordpress/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aws-vpc-t2/resources.tf" />
     <entry file="file://$PROJECT_DIR$/aws-vpc-t2/nat-gateway.tf">
       <provider selected="true" editor-type-id="text-editor">
@@ -834,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="75" column="13" lean-forward="false" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,23 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding>
-            <marker date="1508787017000" expanded="true" signature="44:82" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="52:81" ph="(...)" />
-            <marker date="1508787017000" expanded="true" signature="109:145" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="168:204" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="222:241" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="274:301" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="321:356" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-asg-1/data.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,26 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-asg-1/key-pair.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1508755335000" expanded="true" signature="88:109" ph="${...}" />
-            <marker date="1508755335000" expanded="true" signature="94:108" ph="(...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-asg-1/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,10 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1508771135000" expanded="true" signature="96:113" ph="${...}" />
-            <marker date="1508771135000" expanded="true" signature="144:171" ph="${...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,10 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <marker date="1508772711000" expanded="true" signature="58:78" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="98:129" ph="${...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,21 +793,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="39" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-asg-1/asg.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <marker date="1508745529000" expanded="true" signature="74:117" ph="${...}" />
-            <marker date="1508745529000" expanded="true" signature="144:189" ph="${...}" />
-            <marker date="1508745529000" expanded="true" signature="401:419" ph="${...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,7 +803,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -949,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +819,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/asg-policy.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/terraform.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/terraform.tfstate.backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/terraform.tfstate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -965,37 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508771135000" expanded="true" signature="96:113" ph="${...}" />
-            <marker date="1508771135000" expanded="true" signature="144:171" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="259">
-            <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/database-servers.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508787017000" expanded="true" signature="44:82" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="52:81" ph="(...)" />
-            <marker date="1508787017000" expanded="true" signature="109:145" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="168:204" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="222:241" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="274:301" ph="${...}" />
-            <marker date="1508787017000" expanded="true" signature="321:356" ph="${...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,17 +868,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/asg.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/cloudwatch-alarms.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/data.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/elb.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/key-pair.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/launch-config.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/output-variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/provider.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/asg.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-asg-1/security-groups.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/elb.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/launch-config.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aws-vpc-services/internet-gateway.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
           <folding>
-            <marker date="1508772843000" expanded="true" signature="58:78" ph="${...}" />
+            <marker date="1513941883000" expanded="true" signature="58:80" ph="${...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1025,23 +991,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/web-servers.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <marker date="1515162504000" expanded="true" signature="67:100" ph="${...}" />
+            <marker date="1515162504000" expanded="true" signature="75:86" ph="(...)" />
+            <marker date="1515162504000" expanded="true" signature="75:98" ph="(...)" />
+            <marker date="1515162504000" expanded="true" signature="75:99" ph="(...)" />
+            <marker date="1515162504000" expanded="true" signature="127:163" ph="${...}" />
+            <marker date="1515162504000" expanded="true" signature="186:217" ph="${...}" />
+            <marker date="1515162504000" expanded="true" signature="235:254" ph="${...}" />
+            <marker date="1515162504000" expanded="true" signature="287:315" ph="${...}" />
+            <marker date="1515162504000" expanded="true" signature="335:360" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/vpc.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding>
+            <marker date="1515162553000" expanded="true" signature="50:71" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/security-groups.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <marker date="1515162697000" expanded="true" signature="112:134" ph="${...}" />
+            <marker date="1515162697000" expanded="true" signature="277:305" ph="${...}" />
+            <marker date="1515162697000" expanded="true" signature="402:423" ph="${...}" />
+            <marker date="1515162697000" expanded="true" signature="521:542" ph="${...}" />
+            <marker date="1515162697000" expanded="true" signature="873:895" ph="${...}" />
+            <marker date="1515162697000" expanded="true" signature="1413:1447" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aws-vpc-services/nat-instance.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
           <folding>
-            <marker date="1508772843000" expanded="true" signature="203:223" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="382:414" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="533:565" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1186:1207" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1388:1423" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1396:1422" ph="(...)" />
-            <marker date="1508772843000" expanded="true" signature="1469:1505" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1526:1550" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1588:1607" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1640:1677" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1697:1731" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1891:1913" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="203:225" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="384:418" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="537:571" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1192:1213" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1394:1429" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1402:1428" ph="(...)" />
+            <marker date="1515162774000" expanded="true" signature="1475:1511" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1532:1556" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1594:1613" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1646:1683" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1703:1728" ph="${...}" />
+            <marker date="1515162774000" expanded="true" signature="1888:1910" ph="${...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/public-subnets.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding>
+            <marker date="1515162357000" expanded="true" signature="49:71" ph="${...}" />
+            <marker date="1515162357000" expanded="true" signature="91:124" ph="${...}" />
           </folding>
         </state>
       </provider>
@@ -1049,107 +1077,45 @@
     <entry file="file://$PROJECT_DIR$/aws-vpc-services/private-subnet.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
           <folding>
-            <marker date="1508772843000" expanded="true" signature="59:79" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="99:131" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="158:202" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="166:201" ph="(...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/public-subnet.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508772711000" expanded="true" signature="58:78" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="98:129" ph="${...}" />
+            <marker date="1515162878000" expanded="true" signature="50:72" ph="${...}" />
+            <marker date="1515162878000" expanded="true" signature="92:126" ph="${...}" />
+            <marker date="1515162878000" expanded="true" signature="153:197" ph="${...}" />
+            <marker date="1515162878000" expanded="true" signature="161:196" ph="(...)" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aws-vpc-services/route-tables.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="376">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
-            <marker date="1508772711000" expanded="true" signature="61:81" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="140:174" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="299:333" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="355:394" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="461:481" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="700:735" ph="${...}" />
-            <marker date="1508772711000" expanded="true" signature="757:797" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="61:83" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="142:176" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="301:326" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="348:387" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="454:476" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="695:721" ph="${...}" />
+            <marker date="1515162899000" expanded="true" signature="743:783" ph="${...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/security-groups.tf">
+    <entry file="file://$PROJECT_DIR$/aws-vpc-services/database-servers.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <marker date="1508772843000" expanded="true" signature="112:132" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="275:303" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="400:421" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="519:540" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="869:889" ph="${...}" />
-            <marker date="1508772843000" expanded="true" signature="1354:1386" ph="${...}" />
+            <marker date="1515162923000" expanded="true" signature="44:82" ph="${...}" />
+            <marker date="1515162923000" expanded="true" signature="52:81" ph="(...)" />
+            <marker date="1515162923000" expanded="true" signature="109:145" ph="${...}" />
+            <marker date="1515162923000" expanded="true" signature="168:204" ph="${...}" />
+            <marker date="1515162923000" expanded="true" signature="222:241" ph="${...}" />
+            <marker date="1515162923000" expanded="true" signature="274:301" ph="${...}" />
+            <marker date="1515162923000" expanded="true" signature="321:347" ph="${...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/terraform.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/vpc.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508771539000" expanded="true" signature="48:69" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws-vpc-services/web-servers.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <marker date="1513941274000" expanded="true" signature="67:100" ph="${...}" />
-            <marker date="1513941274000" expanded="true" signature="75:86" ph="(...)" />
-            <marker date="1513941274000" expanded="true" signature="75:98" ph="(...)" />
-            <marker date="1513941274000" expanded="true" signature="75:99" ph="(...)" />
-            <marker date="1513941274000" expanded="true" signature="127:163" ph="${...}" />
-            <marker date="1513941274000" expanded="true" signature="186:217" ph="${...}" />
-            <marker date="1513941274000" expanded="true" signature="235:254" ph="${...}" />
-            <marker date="1513941274000" expanded="true" signature="287:315" ph="${...}" />
-            <marker date="1513941274000" expanded="true" signature="335:369" ph="${...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

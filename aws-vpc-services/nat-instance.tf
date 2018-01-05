@@ -4,7 +4,7 @@
 resource "aws_security_group" "nat_instance" {
     name = "vpc_nat"
     description = "Private subnet traffic to internet"
-    vpc_id = "${aws_vpc.t2_vpc.id}"
+    vpc_id = "${aws_vpc.services.id}"
 
     tags {
       Name = "NAT-instance-SG"
@@ -14,14 +14,14 @@ resource "aws_security_group" "nat_instance" {
         from_port = 80
         to_port = 80
         protocol = "tcp"
-        cidr_blocks = ["${var.private_subnet_cidr_block}"]
+        cidr_blocks = ["${var.cidr_block_private_subnet_1}"]
     }
 
     ingress {
         from_port = 443
         to_port = 443
         protocol = "tcp"
-        cidr_blocks = ["${var.private_subnet_cidr_block}"]
+        cidr_blocks = ["${var.cidr_block_private_subnet_1}"]
     }
 
     ingress {
@@ -56,7 +56,7 @@ resource "aws_security_group" "nat_instance" {
         from_port = 22
         to_port = 22
         protocol = "tcp"
-        cidr_blocks = ["${var.vpc_cidr_block}"]
+        cidr_blocks = ["${var.cidr_block_vpc}"]
     }
 
     egress {
@@ -73,7 +73,7 @@ resource "aws_instance" "nat" {
   instance_type = "${var.nat_instance_type}" # usually: m1.small
     key_name = "${var.aws_key_name}"
     vpc_security_group_ids = ["${aws_security_group.nat_instance.id}"]
-    subnet_id = "${aws_subnet.eu-west-1a-public.id}"
+    subnet_id = "${aws_subnet.public-1.id}"
     associate_public_ip_address = true
     source_dest_check = false
 

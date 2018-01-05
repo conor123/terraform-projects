@@ -17,8 +17,9 @@ In this project we will build AWS Infrastructure for type 2 VPC:
 
 Perfect for modern data driven web apps
 
-Issues
+Notes
 ======
+terraform plan
 
 TODO
 ====

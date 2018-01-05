@@ -1,6 +1,6 @@
-resource "aws_subnet" "eu-west-1a-private" {
-    vpc_id = "${aws_vpc.t2_vpc.id}"
-    cidr_block = "${var.private_subnet_cidr_block}"
+resource "aws_subnet" "private-1" {
+    vpc_id = "${aws_vpc.services.id}"
+    cidr_block = "${var.cidr_block_private_subnet_1}"
     availability_zone = "${lookup(var.availability_zones, "zone_1a")}"
     tags {
         Name = "Private Subnet"
