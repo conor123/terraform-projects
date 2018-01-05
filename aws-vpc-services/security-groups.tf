@@ -83,7 +83,7 @@ resource "aws_security_group" "web" {
     from_port = 3306
     to_port = 3306
     protocol = "tcp"
-    cidr_blocks = ["${var.cidr_block_private_subnet_1}"]
+    #cidr_blocks = ["${var.cidr_block_private_subnet_1}"]
   }
 }
 
