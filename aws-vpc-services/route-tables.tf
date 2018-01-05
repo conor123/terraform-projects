@@ -19,6 +19,7 @@ resource "aws_route_table" "eu-west-1a-private" {
   route {
     cidr_block = "0.0.0.0/0"
     #nat_gateway_id = "${aws_nat_gateway.nat-gw.id}"
+    instance_id = "${aws_instance.nat.id}"
   }
   tags {
     Name = "Private Subnet"

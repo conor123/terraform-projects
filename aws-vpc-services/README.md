@@ -13,7 +13,7 @@ In this project we will build AWS Infrastructure for type 2 VPC:
 - ACLs & SGs
 - EIPs
 - Web servers
-- Database servers, possibly via RDS?
+- Database servers
 
 Perfect for modern data driven web apps
 

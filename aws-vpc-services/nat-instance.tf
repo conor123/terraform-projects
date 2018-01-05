@@ -69,8 +69,8 @@ resource "aws_security_group" "nat_instance" {
 
 resource "aws_instance" "nat" {
     ami = "${lookup(var.amis, "nat_instance")}" # Designated NAT AMI
-  availability_zone = "${var.availability_zones["zone_1a"]}"
-  instance_type = "${var.nat_instance_type}" # usually: m1.small
+    availability_zone = "${var.availability_zones["zone_1a"]}"
+    instance_type = "${var.nat_instance_type}" # usually: m1.small
     key_name = "${var.aws_key_name}"
     vpc_security_group_ids = ["${aws_security_group.nat_instance.id}"]
     subnet_id = "${aws_subnet.public-1.id}"
