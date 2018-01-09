@@ -1,5 +1,5 @@
 resource "aws_autoscaling_policy" "autopolicy" {
-  name = "terraform-autoplicy"
+  name = "terraform-autopolicy"
   scaling_adjustment = 1
   adjustment_type = "ChangeInCapacity"
   cooldown = 300
@@ -7,7 +7,7 @@ resource "aws_autoscaling_policy" "autopolicy" {
 }
 
 resource "aws_autoscaling_policy" "autopolicy-down" {
-  name = "terraform-autoplicy-down"
+  name = "terraform-autopolicy-down"
   scaling_adjustment = -1
   adjustment_type = "ChangeInCapacity"
   cooldown = 300

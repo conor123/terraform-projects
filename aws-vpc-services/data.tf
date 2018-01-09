@@ -1,1 +1,1 @@
-data "aws_availability_zones" "allzones" {}
+data "aws_availability_zones" "available" {}

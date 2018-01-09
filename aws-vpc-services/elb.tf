@@ -1,8 +1,9 @@
 resource "aws_elb" "elb1" {
   name = "terraform-elb"
-  availability_zones = ["${data.aws_availability_zones.allzones.names}"]
+  #availability_zones = ["eu-west-1a","eu-west-1b"]
+  subnets = ["${aws_subnet.public-1.id}"]
   security_groups = ["${aws_security_group.elb.id}"]
-  cross_zone_load_balancing = true
+  cross_zone_load_balancing = false
   idle_timeout = 400
   connection_draining = true
   connection_draining_timeout = 400

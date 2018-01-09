@@ -1,32 +1,31 @@
-resource "aws_route_table" "eu-west-1a-public" {
+resource "aws_route_table" "public-1" {
   vpc_id = "${aws_vpc.services.id}"
   route {
     cidr_block = "0.0.0.0/0"
     gateway_id = "${aws_internet_gateway.default.id}"
   }
   tags {
-    Name = "Public Subnet"
+    Name = "Public Subnet 1"
   }
 }
 
-resource "aws_route_table_association" "eu-west-1a-public" {
+resource "aws_route_table_association" "public-1" {
   subnet_id = "${aws_subnet.public-1.id}"
-  route_table_id = "${aws_route_table.eu-west-1a-public.id}"
+  route_table_id = "${aws_route_table.public-1.id}"
 }
 
-resource "aws_route_table" "eu-west-1a-private" {
+resource "aws_route_table" "public-2" {
   vpc_id = "${aws_vpc.services.id}"
   route {
     cidr_block = "0.0.0.0/0"
-    #nat_gateway_id = "${aws_nat_gateway.nat-gw.id}"
-    instance_id = "${aws_instance.nat.id}"
+    gateway_id = "${aws_internet_gateway.default.id}"
   }
   tags {
-    Name = "Private Subnet"
+    Name = "Public Subnet 2"
   }
 }
 
-resource "aws_route_table_association" "eu-west-1a-private" {
-  subnet_id = "${aws_subnet.private-1.id}"
-  route_table_id = "${aws_route_table.eu-west-1a-private.id}"
+resource "aws_route_table_association" "public-2" {
+  subnet_id = "${aws_subnet.public-2.id}"
+  route_table_id = "${aws_route_table.public-2.id}"
 }

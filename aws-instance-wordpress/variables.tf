@@ -55,13 +55,14 @@ variable "amis" {
     type = "map"
     description = "AMIs"
     default = {
-        #web_server = "ami-acd005d5" # Amazon Linux AMI 2017.09.0 (HVM), SSD Volume Type - ami-acd005d5
-        #web_server = "ami-bb9a6bc2"# Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
-        web_server = "ami-785db401" #Ubuntu Server 16.04 LTS (HVM), SSD Volume Type -
-        database_server = "ami-bb9a6bc2"
+        web_server = "ami-acd005d5" # Amazon Linux AMI 2017.09.0 (HVM), SSD Volume Type - ami-acd005d5 - Works with chef
+
+        #database_server = "ami-bb9a6bc2"
         # Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
         #nat_instance = "ami-30913f47" # amzn-ami-vpc-nat-pv-2014.09.1.x86_64-eb
-        nat_instance = "ami-076d5d61" #amzn-ami-vpc-nat-hvm-2017.03.rc-0.20170320-x86_64-ebss
+        #nat_instance = "ami-076d5d61" #amzn-ami-vpc-nat-hvm-2017.03.rc-0.20170320-x86_64-ebss
+        #web_server = "ami-bb9a6bc2"# Red Hat Enterprise Linux 7.4 (HVM), SSD Volume Type - ami-bb9a6bc2
+        #web_server = "ami-785db401" #Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - No SSL,  won't work with chef
     }
 }
 
